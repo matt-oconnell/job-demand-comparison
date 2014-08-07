@@ -1,0 +1,67 @@
+[07-Jul-2014 16:12:06] PHP Parse error:  syntax error, unexpected '[' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 35
+[07-Jul-2014 16:12:06] PHP Parse error:  syntax error, unexpected '[' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 35
+[07-Jul-2014 16:13:08] PHP Parse error:  syntax error, unexpected '[' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 35
+[07-Jul-2014 16:13:08] PHP Parse error:  syntax error, unexpected '[' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 35
+[07-Jul-2014 16:15:17] PHP Parse error:  syntax error, unexpected '[' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 35
+[07-Jul-2014 16:15:18] PHP Parse error:  syntax error, unexpected '[' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 35
+[07-Jul-2014 16:15:21] PHP Parse error:  syntax error, unexpected '[' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 35
+[07-Jul-2014 16:15:21] PHP Parse error:  syntax error, unexpected '[' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 35
+[07-Jul-2014 16:17:03] PHP Parse error:  syntax error, unexpected '[' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 37
+[07-Jul-2014 16:17:03] PHP Parse error:  syntax error, unexpected '[' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 37
+[07-Jul-2014 16:17:51] PHP Parse error:  syntax error, unexpected '[' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 37
+[07-Jul-2014 16:17:51] PHP Parse error:  syntax error, unexpected '[' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 37
+[07-Jul-2014 16:17:58] PHP Parse error:  syntax error, unexpected '[' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 37
+[07-Jul-2014 16:17:58] PHP Parse error:  syntax error, unexpected '[' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 37
+[07-Jul-2014 16:19:19] PHP Parse error:  syntax error, unexpected '[' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 37
+[07-Jul-2014 16:19:19] PHP Parse error:  syntax error, unexpected '[' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 37
+[07-Jul-2014 16:22:24] PHP Parse error:  syntax error, unexpected '[' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 37
+[07-Jul-2014 16:22:24] PHP Parse error:  syntax error, unexpected '[' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 37
+[07-Jul-2014 16:24:42] PHP Parse error:  syntax error, unexpected '[' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 37
+[07-Jul-2014 16:24:42] PHP Parse error:  syntax error, unexpected '[' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 37
+[07-Jul-2014 19:28:38 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 22
+[07-Jul-2014 19:28:39 America/Denver] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php:69
+Stack trace:
+#0 /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php(69): SimpleXMLElement->__construct('')
+#1 /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php(24): apiCallXML('java', 'jersey+city', 'new jersey')
+#2 {main}
+  thrown in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 69
+[07-Jul-2014 19:29:02 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 22
+[07-Jul-2014 19:29:03 America/Denver] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php:69
+Stack trace:
+#0 /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php(69): SimpleXMLElement->__construct('')
+#1 /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php(24): apiCallXML('java', 'jersey+city', 'new jersey')
+#2 {main}
+  thrown in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 69
+[07-Jul-2014 19:29:12 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 22
+[07-Jul-2014 19:29:13 America/Denver] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php:69
+Stack trace:
+#0 /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php(69): SimpleXMLElement->__construct('')
+#1 /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php(24): apiCallXML('java', 'newark', 'new jersey')
+#2 {main}
+  thrown in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 69
+[07-Jul-2014 19:29:20 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 22
+[07-Jul-2014 19:29:21 America/Denver] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php:69
+Stack trace:
+#0 /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php(69): SimpleXMLElement->__construct('')
+#1 /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php(24): apiCallXML('java', 'newark', 'new jersey')
+#2 {main}
+  thrown in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 69
+[07-Jul-2014 19:29:31 America/Denver] PHP Notice:  Trying to get property of non-object in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 22
+[07-Jul-2014 19:29:32 America/Denver] PHP Fatal error:  Uncaught exception 'Exception' with message 'String could not be parsed as XML' in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php:69
+Stack trace:
+#0 /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php(69): SimpleXMLElement->__construct('')
+#1 /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php(24): apiCallXML('java', 'hoboken', 'new jersey')
+#2 {main}
+  thrown in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 69
+[09-Jul-2014 11:20:09 America/Denver] PHP Notice:  Undefined property: stdClass::$radius in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 14
+[09-Jul-2014 11:20:09 America/Denver] PHP Notice:  Undefined property: stdClass::$salary in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 15
+[09-Jul-2014 11:20:10 America/Denver] PHP Notice:  Undefined property: stdClass::$radius in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 14
+[09-Jul-2014 11:20:10 America/Denver] PHP Notice:  Undefined property: stdClass::$salary in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 15
+[09-Jul-2014 11:20:17 America/Denver] PHP Notice:  Undefined property: stdClass::$radius in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 14
+[09-Jul-2014 11:20:17 America/Denver] PHP Notice:  Undefined property: stdClass::$salary in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 15
+[09-Jul-2014 11:20:18 America/Denver] PHP Notice:  Undefined property: stdClass::$radius in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 14
+[09-Jul-2014 11:20:18 America/Denver] PHP Notice:  Undefined property: stdClass::$salary in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 15
+[09-Jul-2014 11:20:25 America/Denver] PHP Notice:  Undefined property: stdClass::$radius in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 14
+[09-Jul-2014 11:20:25 America/Denver] PHP Notice:  Undefined property: stdClass::$salary in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 15
+[09-Jul-2014 11:20:27 America/Denver] PHP Notice:  Undefined property: stdClass::$radius in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 14
+[09-Jul-2014 11:20:27 America/Denver] PHP Notice:  Undefined property: stdClass::$salary in /home2/mattocon/public_html/experiments/programming-language-comparison/scraper.php on line 15
