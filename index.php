@@ -61,14 +61,14 @@
 	     	<div class="left">
 		     	<div class="chart-wrapper" data-chart-number="0">
 					<h1>Indeed</h1>
-					<canvas class="canvas-chart" id="chart-0" width="500" height="400"></canvas>
+					<canvas class="canvas-chart" id="chart-0"></canvas>
 				</div>
 				<div class="loader" data-load="0"></div>
 	     	</div>
 		  	<div class="right">
 			  	<div class="chart-wrapper" data-chart-number="1">
 					<h1>Career Builder</h1>
-					<canvas class="canvas-chart" id="chart-1" width="500" height="400"></canvas>
+					<canvas class="canvas-chart" id="chart-1"></canvas>
 				</div>
 				<div class="loader" data-load="1"></div>
 		  	</div>

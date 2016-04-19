@@ -76,13 +76,13 @@ $(function() {
 
     $(window).resize( respondCanvas );
 
-    function respondCanvas(){ 
+    function respondCanvas(){
 	    if (mobile){
 		    c.attr('width', $(container).width()/2 );
 			c.attr('height', $(container).height()/2 -29);
 	    } else {
-		    c.attr('width', $(container).width() );
-			c.attr('height', $(container).height() - 63);
+		    c.attr('width', $('.left').width() );
+			c.attr('height', $('.left').height() - 63);
 	    }
     }
     respondCanvas();
@@ -141,16 +141,19 @@ function createChart( apiData ){
 				data : []
 			}
 		]
-	}
+	};
 	data.labels = technologies;
 	data.datasets[0].data = numberOfJobs;
 
 	var options = {
 	    scaleBeginAtZero: true
 	};
-	var ctx = $("#chart-"+parseInt(chartCount)).get(0).getContext("2d");
-	var myNewChart = new Chart(ctx);
-	
+	var $chart = $("#chart-"+parseInt(chartCount));
+	var $chartWrapper = $('.left');
+	$chart.attr('width', $chartWrapper.width() + 'px');
+	$chart.attr('height', $chartWrapper.height() - 65 + 'px');
+	var ctx = $chart.get(0).getContext("2d");
+	//(new Chart(ctx));
 	new Chart(ctx).Bar(data, options);
 	addMetrics( technologies, numberOfJobs, timeToRun, chartCount );
 }
