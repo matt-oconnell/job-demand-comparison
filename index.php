@@ -1,7 +1,7 @@
 <html>
 
 <head>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script src="js/chart.js"></script>
 	<link rel="stylesheet" href="css/main.css">
 	<link rel="stylesheet" href="css/media.css">
@@ -21,7 +21,7 @@
 							<input type="text" name="language1" id="language1" data-input-id="1" value="php" autocomplete="off">
 							<br/>
 						</div>
-						
+
 						<div class="input-line">
 							<input type="text" name="language2" id="language2" data-input-id="2" value="ruby" autocomplete="off">
 							<br/>
@@ -33,7 +33,7 @@
 					<input type="text" name="city" id="city" value="Brooklyn" autocomplete="off">
 					<label for="state">State (ex: NY)</label><br/>
 					<input type="text" name="state" id="state" value="NY" autocomplete="off" style="text-transform: uppercase" maxlength="2">
-					
+
 					<!--
 					<input type="text" name="salary" id="salary" value="80000">
 					<label for="salary">Salary (0 for default)</label><br/>
@@ -48,13 +48,13 @@
 					</select>
 					<label for="radius">Radius (miles)</label><br/>
 					-->
-					
+
 			  		<div type="input" class="btn-add add"></div>
 			  		<div type="input" class="btn-delete delete"></div>
 					<button type="submit"  name="submit" id="submit" class="btn submit" value="SUBMIT">SUBMIT</button>
 				</div>
 			</form>
-	     
+
 	  </div>
 	  <div class="col-2-3">
 	  	<div class="top">
@@ -89,7 +89,7 @@
 	    		 posted near <span>Brooklyn, NY</span>
 	    		 <p></p>
 	    	</div>
-			<div class="metrics-1">	
+			<div class="metrics-1">
 				<h3>Career Builder Stats:</h3>
 				<ul>
 					<li>php: <strong>136</strong></li>
@@ -97,11 +97,11 @@
 					<li>It took: <span>2.120</span> seconds to run.</li>
 				</ul>
 			</div>
-			
+
 	  	</div>
 	  </div>
 	</div>
-	
+
 </body>
 
 <script src="js/main.js"></script>
